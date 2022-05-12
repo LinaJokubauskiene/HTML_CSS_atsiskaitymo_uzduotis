@@ -1,83 +1,114 @@
 @media only screen and (max-width: 768px) {
 }
 
-.wrapper {
-  margin: 10px;
+header {
+  margin: 20px 20px 20px 20px;
+  padding-top: 10px;
   max-width: 768px;
 }
-
-.meniu {
-  display: flex;
-  align-content: left;
-  width: 198px;
-  height: 36px;
-  left: 12px;
-  top: 32px;
-}
-
-header {
-  display: flex;
-}
-
 header img {
-  max-width: 600px;
-  max-height: 360px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
-h3 {
-  display: inline;
+main {
+  margin: 20px 20px 20px 40px;
+}
+
+.launch {
+  max-width: 1020px;
+  font-family: "Inter", sans-serif;
   color: #ff3998;
-  font-family: "Inter", sans-serif;
-  position: absolute;
-  width: 300px;
-  height: 19px;
-  left: 32px;
-  top: 148px;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 19px;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-}
-h1 {
-  color: black;
-  font-family: "Inter", sans-serif;
-  font-style: normal;
-  font-weight: 900;
-  font-size: 48px;
-  line-height: 58px;
-  position: absolute;
-  width: 274px;
-  height: 116px;
-  left: 32px;
-  top: 191px;
+  display: flex;
+  align-items: left;
+  justify-content: center;
+  padding-bottom: 60px;
 }
 
-h5 {
-  font-family: "Inter", sans-serif;
-  font-style: normal;
-  font-weight: 400;
+img {
+  max-width: 200%;
+}
+
+.image {
+  flex-basis: 100%;
+}
+
+.text {
   font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  padding-bottom: 10px;
+  align-items: flex-start;
+}
+
+h1 {
+  color: #111111;
+  font-family: "Inter", sans-serif;
+  font-weight: 900;
+  font-size: 89px;
+  line-height: 58px;
+}
+
+h2 {
+  color: #111111;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 48px;
+}
+
+p {
+  display: block;
+  color: #555555;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
   line-height: 150%;
-  position: absolute;
-  width: 274px;
-  height: 120px;
-  left: 32px;
-  top: 331px;
 }
-.img {
-  max-block-size: 50px 25px;
-}
+
 .button {
-  border-radius: 29em;
+  border-radius: 50%;
+  border-color: darkorange;
   background-color: white;
-  padding: 32px 32px;
+  padding: 48px 48px 48px 48px;
   text-align: center;
   text-decoration: none;
-  display: inline-block;
-  font-size: 8px;
+  font-size: 20px;
 }
 
-.hero {
-  display: flex;
+.free {
+  display: block;
+  block-size: 500px;
+  max-width: 50%;
+  height: 600px;
+  background-image: url("background.svg");
+  display: block;
+  padding-bottom: 120px;
+}
+
+.press {
+  display: inline-block;
+  flex-direction: row;
+  flex: wrap;
+  justify-content: space-evenly;
+  max-width: 768px;
+  max-height: 200px;
+}
+
+.container {
+  width: 100%;
+  white-space: nowrap;
+  overflow-x: auto;
+  padding: 0.5em;
+  box-sizing: border-box;
+  height: auto;
+  overflow-y: hidden;
+}
+
+.container img {
+  float: right;
+  white-space: normal;
+  padding: 0.2em;
+  vertical-align: middle;
 }
